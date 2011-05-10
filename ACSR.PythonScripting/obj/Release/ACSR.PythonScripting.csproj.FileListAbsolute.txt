@@ -1,0 +1,7 @@
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.PythonScripting\bin\Release\ACSR.PythonScripting.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.PythonScripting\bin\Release\ACSR.PythonScripting.pdb
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.PythonScripting\bin\Release\ACSR.Core.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.PythonScripting\bin\Release\ACSR.Core.pdb
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.PythonScripting\obj\Release\ResolveAssemblyReference.cache
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.PythonScripting\obj\Release\ACSR.PythonScripting.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.PythonScripting\obj\Release\ACSR.PythonScripting.pdb

@@ -1,0 +1,5 @@
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\bin\Release\ACSR.Core.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\bin\Release\ACSR.Core.pdb
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\obj\Release\ResolveAssemblyReference.cache
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\obj\Release\ACSR.Core.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\obj\Release\ACSR.Core.pdb
