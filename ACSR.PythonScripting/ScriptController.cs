@@ -10,6 +10,7 @@ using Microsoft.Scripting;
 using Microsoft.Scripting.Hosting;
 using Microsoft.Scripting.Runtime;
 using System.Collections;
+using System.Reflection;
 
 namespace ACSR.PythonScripting
 {
@@ -41,6 +42,7 @@ namespace ACSR.PythonScripting
         }
 
         private BufferedStream _outputStream;
+
         public ScriptController(bool ADebug)
         {
             // _SearchPaths = new List<string>();
@@ -58,7 +60,21 @@ namespace ACSR.PythonScripting
             _engine.Runtime.IO.SetOutput(bufOut, ASCIIEncoding.ASCII);
             _engine.Runtime.IO.SetErrorOutput(bufOut, ASCIIEncoding.ASCII);
 
-            _SearchPaths = _engine.GetSearchPaths();
+            SetSearchPath(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+        }
+
+        public void SetSearchPath(string path)
+        {
+            var sp = _engine.GetSearchPaths();
+            foreach (var p in sp)
+            {
+                if (string.Compare(p, path, false) == 0)
+                {
+                    return;
+                }
+            }
+            sp.Add(path);
+            _engine.SetSearchPaths(sp);
         }
 
         public void SetSysArgV<T> (IEnumerable<T> args)
@@ -123,12 +139,16 @@ namespace ACSR.PythonScripting
                 OnMessage(this, ASCIIEncoding.ASCII.GetString(Data));
         }
      
-        private ICollection<string> _SearchPaths;
+        //private ICollection<string> _SearchPaths;
         public ICollection<string> SearchPaths
         {
             get
             {
-                return _SearchPaths;
+                return _engine.GetSearchPaths();
+            }
+            set
+            {
+                _engine.SetSearchPaths(value);
             }
         }
 

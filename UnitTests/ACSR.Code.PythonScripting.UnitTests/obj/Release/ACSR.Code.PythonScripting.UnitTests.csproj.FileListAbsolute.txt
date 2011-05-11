@@ -1,0 +1,10 @@
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\bin\Release\ACSR.Code.PythonScripting.UnitTests.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\bin\Release\ACSR.Code.PythonScripting.UnitTests.pdb
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\bin\Release\ACSR.PythonScripting.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\bin\Release\ACSR.Core.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\bin\Release\ACSR.PythonScripting.pdb
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\bin\Release\ACSR.Core.pdb
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\obj\Release\ResolveAssemblyReference.cache
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\obj\Release\ACSR.Code.PythonScripting.UnitTests.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\obj\Release\ACSR.Code.PythonScripting.UnitTests.pdb
+Z:\Dev\Andre\Libraries\AndresCSharpResource\UnitTests\ACSR.Code.PythonScripting.UnitTests\bin\Release\Test01.py

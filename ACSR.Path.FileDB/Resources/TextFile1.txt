@@ -1,0 +1,5 @@
+          SELECT d.SIGNATURE, F.FILE_NAME
+          from
+             FTS.fts_names join FILES f on FTS.fts_names.file_id = f.file_id join disks d on
+             d.disk_id = f.disk_id
+          where FTS.fts_names.file_name match ? %s

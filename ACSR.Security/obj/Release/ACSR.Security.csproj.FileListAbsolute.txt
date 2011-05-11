@@ -1,0 +1,7 @@
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Security\bin\Release\ACSR.Security.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Security\bin\Release\ACSR.Security.pdb
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Security\bin\Release\ACSR.Core.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Security\bin\Release\ACSR.Core.pdb
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Security\obj\Release\ResolveAssemblyReference.cache
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Security\obj\Release\ACSR.Security.dll
+Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Security\obj\Release\ACSR.Security.pdb

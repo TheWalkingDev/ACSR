@@ -1,0 +1,10 @@
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\obj\x86\Debug\ResolveAssemblyReference.cache
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\bin\Debug\ACSR.Path.FileDB.Test.exe
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\bin\Debug\ACSR.Path.FileDB.Test.pdb
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\bin\Debug\ACSR.Path.FileDB.dll
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\bin\Debug\ACSR.Path.FileDB.pdb
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\obj\x86\Debug\ACSR.Path.FileDB.Test.exe
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\obj\x86\Debug\ACSR.Path.FileDB.Test.pdb
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\bin\Debug\ACSR.Path.FileDB.Test.exe.config
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\bin\Debug\ACSR.Core.dll
+z:\Dev\Andre\AndresCSharpResource\ACSR\ACSR.Path.FileDB\ACSR.Path.FileDB.Test\bin\Debug\ACSR.Core.pdb

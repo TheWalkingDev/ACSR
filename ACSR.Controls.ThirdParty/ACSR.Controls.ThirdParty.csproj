@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="ScintillaNet">
-      <HintPath>..\..\ThirdParty\ScintillaNet\2.2\ScintillaNet Binaries 2.2\ScintillaNet.dll</HintPath>
+      <HintPath>..\..\ThirdParty\.NET\ScintillaNet\2.2\ScintillaNet Binaries 2.2\ScintillaNet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -94,6 +94,12 @@
       <Project>{C904EF99-1D64-4036-A23E-4D965183E6E7}</Project>
       <Name>ACSR.PythonScripting</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\ThirdParty\.NET\ScintillaNet\2.2\ScintillaNet Binaries 2.2\SciLexer.dll">
+      <Link>SciLexer.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

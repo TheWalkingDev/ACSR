@@ -1,5 +1,0 @@
-Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\bin\Debug\ACSR.Core.dll
-Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\bin\Debug\ACSR.Core.pdb
-Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\obj\Debug\ResolveAssemblyReference.cache
-Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\obj\Debug\ACSR.Core.dll
-Z:\Dev\Andre\Libraries\AndresCSharpResource\ACSR.Core\obj\Debug\ACSR.Core.pdb

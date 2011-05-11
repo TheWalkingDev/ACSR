@@ -1,0 +1,752 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="CreateNew" priority="1" />
+      <Item value="else" priority="12" />
+      <Item value="return" priority="35" />
+      <Item value="if" priority="34" />
+      <Item value="throw" priority="2" />
+      <Item value="new" priority="58" />
+      <Item value="Exception" priority="7" />
+      <Item value="FileName" priority="7" />
+      <Item value="false" priority="9" />
+      <Item value="SystemException" priority="2" />
+      <Item value="int" priority="18" />
+      <Item value="args" priority="16" />
+      <Item value="Length" priority="3" />
+      <Item value="ConsoleKey" priority="1" />
+      <Item value="_port" priority="10" />
+      <Item value="Int32" priority="2" />
+      <Item value="Console" priority="13" />
+      <Item value="string" priority="82" />
+      <Item value="IDisposable" priority="0" />
+      <Item value="private" priority="12" />
+      <Item value="_threads" priority="2" />
+      <Item value="Interlocked" priority="2" />
+      <Item value="bool" priority="8" />
+      <Item value="_Terminated" priority="2" />
+      <Item value="do" priority="1" />
+      <Item value="while" priority="8" />
+      <Item value="AutoResetEvent" priority="6" />
+      <Item value="_responseEvent" priority="0" />
+      <Item value="_server" priority="6" />
+      <Item value="server" priority="4" />
+      <Item value="try" priority="8" />
+      <Item value="catch" priority="6" />
+      <Item value="ObjectDisposedException" priority="0" />
+      <Item value="IIOCPSocketContext" priority="1" />
+      <Item value="var" priority="40" />
+      <Item value="GetClients" priority="0" />
+      <Item value="clients" priority="1" />
+      <Item value="foreach" priority="12" />
+      <Item value="in" priority="11" />
+      <Item value="client" priority="2" />
+      <Item value="public" priority="57" />
+      <Item value="void" priority="34" />
+      <Item value="StopServer" priority="0" />
+      <Item value="_localFile" priority="1" />
+      <Item value="_remoteFile" priority="1" />
+      <Item value="Program" priority="2" />
+      <Item value="IOCPClient" priority="1" />
+      <Item value="RunAsClient" priority="0" />
+      <Item value="RunAsServer" priority="0" />
+      <Item value="SocketIOEvent" priority="2" />
+      <Item value="w" priority="0" />
+      <Item value="SimpleWebGet" priority="0" />
+      <Item value="url" priority="1" />
+      <Item value="using" priority="3" />
+      <Item value="FileStream" priority="2" />
+      <Item value="FileMode" priority="1" />
+      <Item value="fs" priority="2" />
+      <Item value="Stream" priority="1" />
+      <Item value="StreamReader" priority="1" />
+      <Item value="sr" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="StreamWriter" priority="2" />
+      <Item value="sw" priority="0" />
+      <Item value="null" priority="8" />
+      <Item value="List" priority="8" />
+      <Item value="true" priority="7" />
+      <Item value="cmd" priority="13" />
+      <Item value="IEnumerable" priority="6" />
+      <Item value="_script" priority="3" />
+      <Item value="_client" priority="13" />
+      <Item value="_host" priority="4" />
+      <Item value="_q" priority="7" />
+      <Item value="_Scriptargs" priority="3" />
+      <Item value="_mode" priority="1" />
+      <Item value="switch" priority="4" />
+      <Item value="case" priority="3" />
+      <Item value="break" priority="7" />
+      <Item value="Process" priority="1" />
+      <Item value="proc" priority="5" />
+      <Item value="ModuleHandle" priority="0" />
+      <Item value="_args" priority="4" />
+      <Item value="StringBuilder" priority="2" />
+      <Item value="e" priority="9" />
+      <Item value="default" priority="1" />
+      <Item value="ResponseType" priority="2" />
+      <Item value="err" priority="7" />
+      <Item value="call" priority="9" />
+      <Item value="object" priority="20" />
+      <Item value="_code" priority="8" />
+      <Item value="_scope" priority="4" />
+      <Item value="_engine" priority="6" />
+      <Item value="c" priority="3" />
+      <Item value="List&lt;object&gt;" priority="0" />
+      <Item value="ArgumentOutOfRangeException" priority="0" />
+      <Item value="a" priority="0" />
+      <Item value="IronPython" priority="0" />
+      <Item value="Runtime" priority="0" />
+      <Item value="Hosting" priority="1" />
+      <Item value="Python" priority="3" />
+      <Item value="Modules" priority="0" />
+      <Item value="Compiler" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="Stopwatch" priority="0" />
+      <Item value="_sw" priority="6" />
+      <Item value="MemoryStream" priority="5" />
+      <Item value="_ms" priority="6" />
+      <Item value="MS" priority="0" />
+      <Item value="buffer" priority="0" />
+      <Item value="offset" priority="0" />
+      <Item value="Switch" priority="0" />
+      <Item value="_bufferSize" priority="1" />
+      <Item value="BufferSize" priority="0" />
+      <Item value="_bufferTime" priority="1" />
+      <Item value="MaxBufferTime" priority="0" />
+      <Item value="byte" priority="5" />
+      <Item value="buf" priority="9" />
+      <Item value="FlushBuffer" priority="0" />
+      <Item value="delegate" priority="4" />
+      <Item value="event" priority="3" />
+      <Item value="FlushBufferEvent" priority="0" />
+      <Item value="OnFlushBuffer" priority="0" />
+      <Item value="BufferedStream" priority="1" />
+      <Item value="bufOut" priority="5" />
+      <Item value="ASCIIEncoding" priority="3" />
+      <Item value="MessageEvent" priority="2" />
+      <Item value="OnMessage" priority="4" />
+      <Item value="interface" priority="5" />
+      <Item value="IOCPReaderWriter" priority="2" />
+      <Item value="IOCPMessageQueueRPC" priority="0" />
+      <Item value="internal" priority="4" />
+      <Item value="class" priority="9" />
+      <Item value="IRpcContext" priority="3" />
+      <Item value="_Socket" priority="1" />
+      <Item value="Socket" priority="0" />
+      <Item value="_IO" priority="1" />
+      <Item value="IO" priority="1" />
+      <Item value="_MessageQueue" priority="1" />
+      <Item value="MessageQueue" priority="0" />
+      <Item value="Context" priority="1" />
+      <Item value="rpcContext" priority="2" />
+      <Item value="inputP" priority="1" />
+      <Item value="inputParams" priority="2" />
+      <Item value="for" priority="1" />
+      <Item value="i" priority="4" />
+      <Item value="_context" priority="5" />
+      <Item value="this" priority="7" />
+      <Item value="Message" priority="7" />
+      <Item value="IOCPRPCCall" priority="0" />
+      <Item value="Execute" priority="0" />
+      <Item value="message" priority="1" />
+      <Item value="context" priority="6" />
+      <Item value="Port" priority="1" />
+      <Item value="_Server" priority="2" />
+      <Item value="IronPythonServer" priority="0" />
+      <Item value="Host" priority="0" />
+      <Item value="sender" priority="0" />
+      <Item value="IronPythonClient" priority="0" />
+      <Item value="ScriptFile" priority="3" />
+      <Item value="Args" priority="1" />
+      <Item value="Activator" priority="0" />
+      <Item value="_fileName" priority="1" />
+      <Item value="IPythonServerContext" priority="0" />
+      <Item value="serverContext" priority="0" />
+      <Item value="_sessions" priority="5" />
+      <Item value="List&lt;MethodMap&gt;" priority="0" />
+      <Item value="MethodMap" priority="2" />
+      <Item value="Type" priority="0" />
+      <Item value="instance" priority="0" />
+      <Item value="_event" priority="1" />
+      <Item value="Semaphore" priority="1" />
+      <Item value="Count" priority="1" />
+      <Item value="_lock" priority="1" />
+      <Item value="lock" priority="5" />
+      <Item value="session" priority="7" />
+      <Item value="Session" priority="1" />
+      <Item value="ReceiveFile" priority="1" />
+      <Item value="f" priority="1" />
+      <Item value="yield return" priority="0" />
+      <Item value="ISession" priority="0" />
+      <Item value="_files" priority="0" />
+      <Item value="Files" priority="0" />
+      <Item value="_fileHandlers" priority="2" />
+      <Item value="Data" priority="2" />
+      <Item value="Queue" priority="1" />
+      <Item value="IRpcHandler" priority="1" />
+      <Item value="PooledSessions" priority="0" />
+      <Item value="RpcHandler" priority="0" />
+      <Item value="_mongoHost" priority="2" />
+      <Item value="_mongoPort" priority="1" />
+      <Item value="Database" priority="2" />
+      <Item value="MongoDB" priority="0" />
+      <Item value="_db" priority="1" />
+      <Item value="IMongoCollection" priority="2" />
+      <Item value="Document" priority="0" />
+      <Item value="doc" priority="4" />
+      <Item value="_Call" priority="1" />
+      <Item value="Call" priority="0" />
+      <Item value="_log" priority="0" />
+      <Item value="_buffer" priority="0" />
+      <Item value="_outStream" priority="0" />
+      <Item value="List&lt;byte[]&gt;" priority="0" />
+      <Item value="_sendQueue" priority="6" />
+      <Item value="ABuffer" priority="4" />
+      <Item value="t" priority="1" />
+      <Item value="SendDirect" priority="0" />
+      <Item value="ref" priority="0" />
+      <Item value="_sendCounter" priority="0" />
+      <Item value="Threading" priority="3" />
+      <Item value="System" priority="1" />
+      <Item value="Thread" priority="1" />
+      <Item value="rw" priority="0" />
+      <Item value="Clients" priority="1" />
+      <Item value="SendMessage" priority="0" />
+      <Item value="IOCPServerClients" priority="0" />
+      <Item value="_controller" priority="15" />
+      <Item value="XmlDocument" priority="0" />
+      <Item value="ms" priority="2" />
+      <Item value="StringTools" priority="0" />
+      <Item value="movies" priority="2" />
+      <Item value="CMDLineHelper" priority="1" />
+      <Item value="proxyPort" priority="1" />
+      <Item value="proxy" priority="0" />
+      <Item value="nodes" priority="0" />
+      <Item value="node" priority="2" />
+      <Item value="action" priority="0" />
+      <Item value="_cmd" priority="0" />
+      <Item value="Queryable" priority="0" />
+      <Item value="QueryFeeds" priority="1" />
+      <Item value="DateTime" priority="2" />
+      <Item value="item" priority="0" />
+      <Item value="label" priority="0" />
+      <Item value="foundDoc" priority="1" />
+      <Item value="_movies" priority="0" />
+      <Item value="query" priority="0" />
+      <Item value="GetFeeds" priority="0" />
+      <Item value="_label" priority="0" />
+      <Item value="_procName" priority="2" />
+      <Item value="ProcessName" priority="2" />
+      <Item value="AddArg" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="ret" priority="0" />
+      <Item value="interactive" priority="1" />
+      <Item value="line" priority="1" />
+      <Item value="ICode" priority="0" />
+      <Item value="ScriptSource" priority="0" />
+      <Item value="Scope" priority="0" />
+      <Item value="Code" priority="1" />
+      <Item value="script" priority="0" />
+      <Item value="_source" priority="0" />
+      <Item value="source" priority="0" />
+      <Item value="code" priority="1" />
+      <Item value="controller" priority="0" />
+      <Item value="CompiledCode" priority="2" />
+      <Item value="RunCode" priority="0" />
+      <Item value="_outputStream" priority="0" />
+      <Item value="ScriptScope" priority="1" />
+      <Item value="scope" priority="0" />
+      <Item value="RunInteractive" priority="0" />
+      <Item value="_scriptFile" priority="0" />
+      <Item value="GetParams" priority="1" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="ScriptController" priority="4" />
+      <Item value="Dictionary&lt;string,ScriptController&gt;" priority="0" />
+      <Item value="out" priority="0" />
+      <Item value="CreateController" priority="0" />
+      <Item value="_processControllers" priority="0" />
+      <Item value="BeginProcess" priority="1" />
+      <Item value="_processName" priority="1" />
+      <Item value="p" priority="15" />
+      <Item value="error" priority="4" />
+      <Item value="override" priority="0" />
+      <Item value="_P" priority="1" />
+      <Item value="P" priority="0" />
+      <Item value="_errors" priority="6" />
+      <Item value="List&lt;string&gt;" priority="1" />
+      <Item value="_output" priority="0" />
+      <Item value="ThreadStart" priority="0" />
+      <Item value="_Event" priority="0" />
+      <Item value="r" priority="5" />
+      <Item value="s" priority="4" />
+      <Item value="_DoneReading" priority="0" />
+      <Item value="p_ErrorDataReceived" priority="0" />
+      <Item value="ThreadStaticAttribute" priority="0" />
+      <Item value="params" priority="0" />
+      <Item value="treeListView1" priority="0" />
+      <Item value="DevExpress" priority="0" />
+      <Item value="treeView1" priority="0" />
+      <Item value="_ConnectionString" priority="1" />
+      <Item value="_ftp" priority="1" />
+      <Item value="treeView2" priority="1" />
+      <Item value="dir" priority="1" />
+      <Item value="FTPClient" priority="1" />
+      <Item value="FTPConnection" priority="1" />
+      <Item value="SqlCommand" priority="0" />
+      <Item value="owner" priority="0" />
+      <Item value="MessageBoxOptions" priority="0" />
+      <Item value="sql" priority="0" />
+      <Item value="_NotificationCMD" priority="1" />
+      <Item value="_NotificationDependency" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="11" />
+      <Item value="ReadLine" priority="0" />
+      <Item value="ReadKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ConsoleKey">
+      <Item value="Q" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ConsoleKeyInfo">
+      <Item value="Key" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="8" />
+      <Item value="IsNullOrEmpty" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Interlocked">
+      <Item value="Increment" priority="1" />
+      <Item value="Decrement" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.AutoResetEvent">
+      <Item value="Set" priority="3" />
+      <Item value="WaitOne" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.TcpListener">
+      <Item value="Stop" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.IOCPServer">
+      <Item value="Stop" priority="0" />
+      <Item value="OnConnect" priority="3" />
+      <Item value="OnDisconnect" priority="0" />
+      <Item value="MessageQueue" priority="0" />
+      <Item value="GetClients" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.IIOCPSocketContext">
+      <Item value="Socket" priority="0" />
+      <Item value="IO" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.Socket">
+      <Item value="Disconnect" priority="0" />
+      <Item value="Connected" priority="1" />
+      <Item value="RemoteEndPoint" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.IOCPClient">
+      <Item value="OnDisconnect" priority="0" />
+      <Item value="Connect" priority="1" />
+      <Item value="ReaderWriter" priority="1" />
+      <Item value="Client" priority="0" />
+      <Item value="MessageQueue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileMode">
+      <Item value="Create" priority="1" />
+      <Item value="Open" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestIronPythonServer.Program">
+      <Item value="Run" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACSR.Core.Networking.SimpleWeb.SimpleWebGet">
+      <Item value="Get" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd" priority="1" />
+      <Item value="EndOfStream" priority="0" />
+      <Item value="ReadLine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="Write" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACSR.Core.Strings.StringTools">
+      <Item value="StringToFile" priority="0" />
+      <Item value="StringToStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Processes.CMDLineHelper">
+      <Item value="ParamsAfterSwitch" priority="1" />
+      <Item value="ParamAfterSwitch" priority="9" />
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.IOCPMessageQueueRPC">
+      <Item value="Execute" priority="0" />
+      <Item value="RegisterRPC" priority="0" />
+      <Item value="SendMessage" priority="0" />
+      <Item value="OnMessage" priority="0" />
+      <Item value="RegisterRPCHandlers" priority="1" />
+      <Item value="RegisterRPCHandler" priority="1" />
+      <Item value="BroadCastMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="StartInfo" priority="4" />
+      <Item value="Start" priority="1" />
+      <Item value="WaitForInputIdle" priority="0" />
+      <Item value="ErrorDataReceived" priority="1" />
+      <Item value="StandardError" priority="5" />
+      <Item value="StandardOutput" priority="1" />
+      <Item value="HasExited" priority="4" />
+      <Item value="OutputDataReceived" priority="1" />
+      <Item value="BeginOutputReadLine" priority="2" />
+      <Item value="BeginErrorReadLine" priority="2" />
+      <Item value="ExitCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.ProcessStartInfo">
+      <Item value="FileName" priority="0" />
+      <Item value="Arguments" priority="0" />
+      <Item value="ErrorDialog" priority="0" />
+      <Item value="RedirectStandardError" priority="0" />
+      <Item value="CreateNoWindow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append" priority="4" />
+      <Item value="ToString" priority="0" />
+      <Item value="AppendLine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.IOCPReaderWriter">
+      <Item value="Socket" priority="2" />
+      <Item value="OnDisconnect" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.DataReceivedEventArgs">
+      <Item value="Data" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.TcpClient">
+      <Item value="Connected" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Data" priority="0" />
+      <Item value="Message" priority="1" />
+      <Item value="StackTrace" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACSR.Core.Networking.IOCP.ResponseType">
+      <Item value="Error" priority="0" />
+      <Item value="None" priority="0" />
+      <Item value="Message" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.IOCPRPCCall">
+      <Item value="Params" priority="5" />
+      <Item value="Response" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Scripting.Hosting.CompiledCode">
+      <Item value="Execute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Scripting.Hosting.ScriptEngine">
+      <Item value="Runtime" priority="1" />
+      <Item value="GetSysModule" priority="0" />
+      <Item value="GetCompilerOptions" priority="0" />
+      <Item value="Setup" priority="0" />
+      <Item value="CreateScriptSourceFromString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.PythonScripting.ScriptController">
+      <Item value="Engine" priority="3" />
+      <Item value="SetSysArgV" priority="0" />
+      <Item value="OnMessage" priority="0" />
+      <Item value="Run" priority="0" />
+      <Item value="RunCode" priority="0" />
+      <Item value="CompileCode" priority="0" />
+      <Item value="Scope" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Scripting.Hosting.ScriptScope">
+      <Item value="SetVariable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="9" />
+      <Item value="Count" priority="4" />
+      <Item value="RemoveAt" priority="2" />
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Scripting.Hosting.LanguageSetup">
+      <Item value="Options" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Scripting.Hosting.ScriptRuntime">
+      <Item value="IO" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Scripting.Hosting.ScriptIO">
+      <Item value="SetOutput" priority="0" />
+      <Item value="SetErrorOutput" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="Start" priority="1" />
+      <Item value="ElapsedMilliseconds" priority="0" />
+      <Item value="Reset" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="Write" priority="1" />
+      <Item value="Length" priority="2" />
+      <Item value="Position" priority="1" />
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.PythonScripting.BufferedStream">
+      <Item value="OnFlushBuffer" priority="0" />
+      <Item value="FlushBuffer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.ASCIIEncoding">
+      <Item value="ASCII" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetString" priority="2" />
+      <Item value="GetBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.IRpcContext">
+      <Item value="MessageQueue" priority="1" />
+      <Item value="IO" priority="1" />
+      <Item value="Socket" priority="0" />
+      <Item value="Call" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="2" />
+      <Item value="toar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.PythonScripting.ClientServer.IronPythonServer">
+      <Item value="Start" priority="0" />
+      <Item value="Server" priority="2" />
+      <Item value="HandleMessage" priority="0" />
+      <Item value="OnMessage" priority="0" />
+      <Item value="MessageQueue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.PythonScripting.ClientServer.IronPythonClient">
+      <Item value="OnMessage" priority="0" />
+      <Item value="Run" priority="0" />
+      <Item value="Connect" priority="0" />
+      <Item value="Eval" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.RPCServices.IRpcHandler">
+      <Item value="CreateInstance" priority="1" />
+      <Item value="GetInstance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Semaphore">
+      <Item value="WaitOne" priority="0" />
+      <Item value="Release" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.MethodMap">
+      <Item value="InSession" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.SessionList">
+      <Item value="GetSession" priority="0" />
+      <Item value="ReleaseSession" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.RPCServices.ReceiveFile">
+      <Item value="OnReceiveFileComplete" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.RPCServices.ReceiveFiles">
+      <Item value="RaiseReceiveFileDataEvent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MongoDB.Driver.IMongoCollection">
+      <Item value="Insert" priority="1" />
+      <Item value="Find" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.EndPoint">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.IRpcCall">
+      <Item value="Method" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.Core.Networking.IOCP.ByteTransmitter">
+      <Item value="OnSendComplete" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="CurrentThread" priority="2" />
+      <Item value="Sleep" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlDocument">
+      <Item value="Load" priority="0" />
+      <Item value="SelectSingleNode" priority="0" />
+      <Item value="SelectNodes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNode">
+      <Item value="SelectSingleNode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="1" />
+      <Item value="Today" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MongoDB.Driver.ICursor">
+      <Item value="Documents" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddDays" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Boolean">
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Scripting.SourceCodeKind">
+      <Item value="Statements" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACSR.PythonScripting.ICode">
+      <Item value="Run" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="TryGetValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestConsoleOutput.OutputReader">
+      <Item value="ReadError" priority="2" />
+      <Item value="Read" priority="1" />
+      <Item value="DoneReading" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlNotificationEventArgs">
+      <Item value="Info" priority="1" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACSR.Core.System.Threading.ThreadUtils">
+      <Item value="FastThread" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestSQLNotification.Program">
+      <Item value="Run" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CommonTools.TreeListView">
+      <Item value="Nodes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CommonTools.TreeListViewNodes">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CommonTools.Node">
+      <Item value="Nodes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CommonTools.NodeCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeView">
+      <Item value="Parent" priority="0" />
+      <Item value="Nodes" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.SqlClient.SqlDependency">
+      <Item value="Stop" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ftp.FTP">
+      <Item value="Connect" priority="0" />
+      <Item value="ListDirectories" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNodeCollection">
+      <Item value="Clear" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.Dns">
+      <Item value="GetHostEntry" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FTPClient.FTPConnection">
+      <Item value="Open" priority="0" />
+      <Item value="XDir" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="ExecuteReader" priority="0" />
+      <Item value="Notification" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="Open" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlDependency">
+      <Item value="AddCommandDependency" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Networking/d:IOCP/d:RPCServices/f:IRpcHandler.cs" caret="239" fromTop="10" />
+      <File id="7DBB4E34-3704-456C-B12C-5195A8F2A22B/f:Program.cs" caret="481" fromTop="17" />
+      <File id="AA1FB28B-31DE-436E-9A3B-CD18EEB02ED2/f:Program.cs" caret="259" fromTop="11" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Networking/d:IOCP/f:IRpcContext.cs" caret="296" fromTop="13" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Networking/d:IOCP/f:IIOCPSocketContext.cs" caret="303" fromTop="14" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Networking/d:IOCP/f:IOCPReaderWriter.cs" caret="1655" fromTop="24" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Networking/d:IOCP/f:ByteTransmitter.cs" caret="1736" fromTop="24" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Networking/d:IOCP/f:IOCPServer.cs" caret="2542" fromTop="34" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Strings/f:StringTools.cs" caret="1144" fromTop="38" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Networking/d:SimpleWeb/f:SimpleWebGet.cs" caret="348" fromTop="0" />
+      <File id="5E414242-DED4-4780-9E17-F02E2084077D/f:Program.cs" caret="777" fromTop="0" />
+      <File id="7846A858-CBF3-499F-B45B-18B940DED3CE/f:Program.cs" caret="3024" fromTop="63" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:System/d:Threading/f:ThreadUtils.cs" caret="113" fromTop="4" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Networking/d:IOCP/f:IOCPMessageQueueRPC.cs" caret="8886" fromTop="109" />
+      <File id="C904EF99-1D64-4036-A23E-4D965183E6E7/d:ClientServer/f:IronPythonClient.cs" caret="2132" fromTop="41" />
+      <File id="9251A8E2-DDDC-47EA-BA3A-970C02373F4E/f:EngineAdapter.cs" caret="412" fromTop="0" />
+      <File id="9251A8E2-DDDC-47EA-BA3A-970C02373F4E/f:Engine.cs" caret="4306" fromTop="25" />
+      <File id="C904EF99-1D64-4036-A23E-4D965183E6E7/d:ClientServer/f:IronPythonServer.cs" caret="2867" fromTop="29" />
+      <File id="4BB7AD11-C2D2-40CA-A98C-0BBED0621065/f:ftp.cs" caret="0" fromTop="0" />
+      <File id="32F91636-1163-481C-9AA8-0D76FC3DDFD0/f:Program.cs" caret="969" fromTop="31" />
+      <File id="C904EF99-1D64-4036-A23E-4D965183E6E7/f:ScriptController.cs" caret="2087" fromTop="49" />
+      <File id="4BB7AD11-C2D2-40CA-A98C-0BBED0621065/f:ftplib.cs" caret="26597" fromTop="11" />
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPConnection.cs" caret="20676" fromTop="16" />
+      <File id="F6A01D1C-F55C-4B08-B97D-C0FC45373BF9/d:Networking/d:IOCP/f:IOCPMessageQueue.cs" caret="1756" fromTop="20" />
+      <File id="08841DDC-490C-47D7-A49F-66E415F6A9FB/f:Program.cs" caret="1010" fromTop="9" />
+      <File id="2FA674A1-9BD2-457A-84DC-1240A76D2F45/f:Program.cs" caret="1029" fromTop="33" />
+      <File id="6A1A81E9-5FF2-46BD-8D4E-E86ADBCC7784/f:Program.cs" caret="2561" fromTop="36" />
+      <File id="96F6797A-15C9-40C9-9E9B-DEDD96A32099/f:Form1.cs" caret="720" fromTop="29" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="3380" fromTop="41" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="2369" fromTop="43" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="96F6797A-15C9-40C9-9E9B-DEDD96A32099/f:Form1.cs" caret="573" fromTop="24" />
+      <File id="96F6797A-15C9-40C9-9E9B-DEDD96A32099/f:Form1.cs" caret="793" fromTop="32" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="1308" fromTop="33" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="1308" fromTop="50" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="3342" fromTop="32" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="1308" fromTop="43" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="2361" fromTop="43" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="509" fromTop="20" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="11216" fromTop="38" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="78959" fromTop="50" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="79544" fromTop="31" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="81749" fromTop="50" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="82868" fromTop="51" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="969" fromTop="13" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="3109" fromTop="42" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="5851" fromTop="25" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="1637" fromTop="34" />
+      <File id="6C857434-B551-448B-9C73-73B9CFF4D7A1/f:Program.cs" caret="2748" fromTop="20" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="1648" fromTop="32" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="1637" fromTop="30" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="495" fromTop="20" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="597" fromTop="22" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="963" fromTop="29" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="1214" fromTop="35" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="1637" fromTop="32" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="1338" fromTop="25" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="1776" fromTop="43" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="2300" fromTop="46" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="2483" fromTop="50" />
+      <File id="F23A8C61-A2F5-4B31-B3F9-4E4A6370FECB/f:Form1.cs" caret="2076" fromTop="38" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

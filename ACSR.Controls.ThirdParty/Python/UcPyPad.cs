@@ -73,7 +73,7 @@ namespace ACSR.Controls.ThirdParty.Python
             var ctx = _engine.CreateScriptContext();
             ctx.SetVariable("targetObject", objectToInspect.Data);
             var list = ctx.ExecuteString("l = dir(targetObject); l.sort();\nl");
-                //var list = ctx.GetGlobals();
+                
                 foreach (var l in list)
                 {
                     string nodeName = l.ToString();
@@ -103,8 +103,6 @@ namespace ACSR.Controls.ThirdParty.Python
                 {
                     treeViewVariables.EndUpdate();
                 }
-               // AddNewNode(e.Node, new TreeNode("first child"));
-               // AddNewNode(e.Node, new TreeNode("second child"));
             
         }
 
@@ -151,10 +149,9 @@ namespace ACSR.Controls.ThirdParty.Python
 
         public void UpdateVariables()
         {
-            //Compile(CodeAsString).Execute();
+           
             Compile("").Execute();
 
-            //treeViewVariables.Nodes.Clear();
 
             Dictionary<string, TreeNode> map = new Dictionary<string, TreeNode>();
             foreach (TreeNode node in treeViewVariables.Nodes)
@@ -207,7 +204,7 @@ namespace ACSR.Controls.ThirdParty.Python
         {
             try
             {
-                //LogMessage(">> " + Code + System.Environment.NewLine);
+               
                 Compile(Code);
                 var retval = _context.Execute();
                 if (retval != null)
@@ -215,11 +212,7 @@ namespace ACSR.Controls.ThirdParty.Python
                     retval = _context.CreateLocalScope()
                         .SetVariable("expressionToEvaluate", retval)
                         .Evaluate("repr(expressionToEvaluate)");
-                   
-                    //retval = _context.EvaluateExpression("repr(expressionToEvaluate)", tempScope);
-                   // _context.Scope.expressionToEvaluate = retval;
-                    //Compile("repr(expressionToEvaluate)");
-                    //retval = _context.Execute();
+                  
                     LogMessage(retval.ToString() + System.Environment.NewLine);
                 }
                 UpdateVariables();
@@ -327,12 +320,8 @@ namespace ACSR.Controls.ThirdParty.Python
                 {
                     TrappedKeyDown(e);
                 }
-                //else
-                //{
-                //    TrappedKeyUp(e);
-                //}
-
-                // Remove any WM_CHAR type messages if supresskeypress is true.
+               
+               
                 if (e.SuppressKeyPress)
                 {
                     this.RemovePendingMessages(WM_CHAR, WM_CHAR);
@@ -351,7 +340,6 @@ namespace ACSR.Controls.ThirdParty.Python
         void RunInteractiveCodeAndUpdateCombobox(string code)
         {
             RunInteractiveCode(code);
-            // string text = comboBox1.Text;
             var idx = comboBox1.Items.IndexOf(code);
             if (idx >= 0)
             {

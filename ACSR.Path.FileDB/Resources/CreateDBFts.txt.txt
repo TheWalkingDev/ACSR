@@ -1,0 +1,1 @@
+create virtual table fts_names using fts3('file_id', 'file_name')
